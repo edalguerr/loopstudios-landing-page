@@ -15,45 +15,182 @@
   </style>
 </head>
 <body>
-  About
-  Careers
-  Events
-  Products
-  Support
 
-  Immersive experiences that deliver
+  <!--TODO: set backgorund image in .header class-->
+  <header class="header-container">
+    
+    <nav role="navigation" class="navbar">
 
-  The leader in interactive VR
+      <a class="navbar__logo" href="#"><img src="./images/logo.svg" alt="Logo"></a>
 
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
+      <ul class="navbar-container">
+        <li class="navbar-container__item"><a class="navbar-container__link" href="#">About</a></li>
+        <li class="navbar-container__item"><a class="navbar-container__link" href="#">Careers</a></li>
+        <li class="navbar-container__item"><a class="navbar-container__link" href="#">Events</a></li>
+        <li class="navbar-container__item"><a class="navbar-container__link" href="#">Products</a></li>
+        <li class="navbar-container__item"><a class="navbar-container__link" href="#">Support</a></li>
+      </ul>
 
-  Our creations
+    </nav>
+  
+    <div class="header-description">
+      <h1 class="header-description__title">
+        Immersive experiences that deliver
+      </h1>
+    </div>
 
-  See all
+  </header>
+  
+  <main class="main-container">
 
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
+    <section class="about-container">
+      <img src="./images/desktop/image-interactive.jpg" alt="" class="about-item about-item__img">
 
-  About
-  Careers
-  Events
-  Products
-  Support
+      <div class="about-item">
+        <h2 class="about-item__title">
+          The leader in interactive VR
+        </h2>
+        <p class="about-item__text">
+          Founded in 2011, Loopstudios has been producing world-class virtual reality 
+          projects for some of the best companies around the globe. Our award-winning 
+          creations have transformed businesses through digital experiences that bind 
+          to their brand.
+        </p>
+      </div>
+      
+    </section>
 
-  © 2021 Loopstudios. All rights reserved.
+    <section class="projects-container">
+      
+      <h3 class="projects-container__title">
+        Our creations
+      </h3>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <a href="#" class="projects-container__link projects-container__link--button">
+        See all
+      </a>
+
+      <div class="gallery-projects">
+
+        <!--TODO: set backgorund image corresponding to each .gallery class-->
+
+        <div class="gallery-item">
+          
+          <p class="gallery-item__description">
+            Deep earth
+          </p>
+        </div>
+
+        <div class="gallery-item">
+          
+          <p class="gallery-item__description">
+            Night arcade
+          </p>
+        </div>
+
+        <div class="gallery-item">
+          
+          <p class="gallery-item__description">
+            Soccer team VR
+          </p>
+        </div>
+
+        <div class="gallery-item">
+          
+          <p class="gallery-item__description">
+            The grid
+          </p>
+        </div>
+
+        <div class="gallery-item">
+          
+          <p class="gallery-item__description">
+            From up above VR
+          </p>
+        </div>
+
+        <div class="gallery-item">
+          
+          <p class="gallery-item__description">
+            Pocket borealis
+          </p>
+        </div>
+
+        <div class="gallery-item">
+          
+          <p class="gallery-item__description">
+            The curiosity
+          </p>
+        </div>
+
+        <div class="gallery-item">
+          
+          <p class="gallery-item__description">
+            Make it fisheye
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+  
+  <footer class="footer-container">
+
+    <div class="navbar">
+
+      <a class="navbar__logo" href="#"><img src="./images/logo.svg" alt="Logo"></a>
+
+      <ul class="navbar-container">
+        <li class="navbar-container__item"><a class="navbar-container__link" href="#">About</a></li>
+        <li class="navbar-container__item"><a class="navbar-container__link" href="#">Careers</a></li>
+        <li class="navbar-container__item"><a class="navbar-container__link" href="#">Events</a></li>
+        <li class="navbar-container__item"><a class="navbar-container__link" href="#">Products</a></li>
+        <li class="navbar-container__item"><a class="navbar-container__link" href="#">Support</a></li>
+      </ul>
+
+    </div>
+
+    <div class="about-contact">
+    
+      <ul class="social-networks">
+
+        <li class="social-item">
+          <img src="./images/icon-facebook.svg" alt="" class="social-item__icon">
+        </li>
+
+        <li class="social-item">
+          <img src="./images/icon-twitter.svg" alt="" class="social-item__icon">
+        </li>
+
+        <li class="social-item">
+          <img src="./images/icon-pinterest.svg" alt="" class="social-item__icon">
+        </li>
+
+        <li class="social-item">
+          <img src="./images/icon-instagram.svg" alt="" class="social-item__icon">
+        </li>
+
+      </ul>
+
+      <div class="about-contact__rights">
+        © 2021 Loopstudios. All rights reserved.
+      </div>
+      
+    </div>
+
+    <div class="attribution">
+      <p class="attribution__description">
+        Challenge by 
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="attribution__description-link">
+          Frontend Mentor
+        </a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </div>    
+
+  </footer>
+  
 </body>
 </html>
