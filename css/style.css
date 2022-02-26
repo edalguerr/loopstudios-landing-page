@@ -206,9 +206,53 @@ with vw values ****/
 }
 
 
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2% 6%;
+    align-items: center;
+    background-color: var(--black);
+}
+
+.footer-navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: flex-start;
+}
+
+.footer-navbar-container {
+    width: 100%;
+    align-self: flex-end;
+    justify-content: left;
+}
+
+.footer-navbar__logo {
+    margin-bottom: 20px;
+}
+
+.social-networks {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+}
+
+.about-contact__rights {
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: right;
+    font-family: var(--font-secondary);
+    color: var(--very-dark-gray);
+}
+
+
 .attribution { 
-    font-size: 11px; 
-    text-align: center; 
+    grid-column: 1 / span 3;
+    font-size: 0.8rem; 
+    text-align: center;
+    font-family: var(--font-secondary);
+    color: var(--white); 
 }
 
 .attribution__description-link { 
