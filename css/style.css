@@ -176,6 +176,11 @@ with vw values ****/
     letter-spacing: 1.7px;
 }
 
+.projects-container__link--button:hover {
+    color: var(--white);
+    background-color: var(--black);
+}
+
 
 .gallery-projects {
     grid-column: 1 / span 2;
@@ -203,6 +208,18 @@ with vw values ****/
     font-size: 2rem;
     font-family: var(--font-primary);    
     color: var(--white);
+}
+
+.gallery-item:hover {
+    cursor:pointer;
+}
+
+.gallery-item:hover  .gallery-item__img {
+    filter: opacity(0.3);
+}
+
+.gallery-item:hover .gallery-item__description{
+    color: var(--black);
 }
 
 
@@ -236,6 +253,11 @@ with vw values ****/
     gap: 20px;
     justify-content: end;
     align-items: center;
+}
+
+.social-item__link-icon:hover {
+    border-bottom: 2px solid white;
+
 }
 
 .about-contact__rights {
