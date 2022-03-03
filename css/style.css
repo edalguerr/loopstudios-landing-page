@@ -56,6 +56,10 @@ with vw values ****/
     
 }
 
+.navbar__hamburguer-button {
+    display: none;
+}
+
 .navbar__logo {
     width: 30%;
     z-index: 2;
@@ -279,4 +283,74 @@ with vw values ****/
 
 .attribution__description-link { 
     color: hsl(228, 45%, 44%); 
+}
+
+
+/************************************************/
+/*          MEDIA QUERY MOBILE          */
+/************************************************/
+
+@media only screen and (max-width:768px) {
+    
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+        background: url('../images/mobile/image-hero.jpg') center/cover no-repeat;
+    }
+
+
+    .navbar {
+        height: 3%;
+        padding: 2rem 1rem;
+    }
+
+
+    .navbar-container {
+        display: none;
+    }
+
+    .navbar__logo {
+        width: fit-content;
+    }
+
+    .navbar__hamburguer-button {
+        display: inline-block;
+        width: 15%;
+        z-index: 2;
+    }
+
+    
+    .header-description {
+        height: 80%;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        justify-content: center;
+        flex-direction: column;        
+    }
+
+    .header-description__title {
+        width: 80vw;
+        padding: 2rem 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        top: 2rem;
+        font-size: 3rem;
+    }
+
+}
+
+
+/************************************************/
+/*          MEDIA QUERY TABLETS/MINI PORTATILS   */
+/************************************************/
+
+@media only screen and (max-width:1439px) {
+ 
+    .navbar-container {
+        width: 60%;
+    }
+    
 }
