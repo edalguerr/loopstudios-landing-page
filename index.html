@@ -43,7 +43,11 @@
   <main class="main-container">
 
     <section class="about-container">
-      <img src="./images/desktop/image-interactive.jpg" alt="" class="about-item-img">
+      <picture class="about-item-img-container">
+        <source srcset="./images/mobile/image-interactive.jpg" media="(max-width: 768px)">
+        <img src="./images/desktop/image-interactive.jpg" alt="" class="about-item-img-container__img">
+      </picture>
+      
 
       <div class="about-item">
         <h2 class="about-item__title">
