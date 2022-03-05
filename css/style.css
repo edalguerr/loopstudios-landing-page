@@ -144,7 +144,7 @@
     display: grid;
     grid-template-columns: 65% 35%;
     row-gap: 4.5rem;
-    margin: 7rem 11rem 7rem 6.5rem;
+    margin: 7rem 6.5rem;
     justify-content: center;
     align-items: center;
 }
@@ -424,6 +424,18 @@
         margin-top: 1rem;
         grid-row: 3 / span 1;
         grid-column: 1 / span 1;
+    }
+
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-navbar-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.4rem;
     }
 
 }
