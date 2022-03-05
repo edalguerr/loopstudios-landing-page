@@ -28,7 +28,16 @@
         <li class="navbar-container__item"><a class="navbar-container__link" href="#">Support</a></li>
       </ul>
 
-      <a href="#" class="navbar__hamburguer-button"><img src="./images/icon-hamburger.svg" alt=""></a>
+      <ul class="navbar-container-dropdown navbar-container">
+        <li class="navbar-container__item"><a class="navbar-container-dropdown__link navbar-container__link" href="#">About</a></li>
+        <li class="navbar-container__item"><a class="navbar-container-dropdown__link navbar-container__link" href="#">Careers</a></li>
+        <li class="navbar-container__item"><a class="navbar-container-dropdown__link navbar-container__link" href="#">Events</a></li>
+        <li class="navbar-container__item"><a class="navbar-container-dropdown__link navbar-container__link" href="#">Products</a></li>
+        <li class="navbar-container__item"><a class="navbar-container-dropdown__link navbar-container__link" href="#">Support</a></li>
+      </ul>
+
+      <a href="#" class="navbar__hamburguer-button" onclick="dropdownMenu()"><img src="./images/icon-hamburger.svg" alt=""></a>
+      <a href="#" class="navbar__close-button" onclick="dropdownMenu()"><img src="./images/icon-close.svg" alt=""></a>
 
     </nav>
   
@@ -241,5 +250,7 @@
 
   </footer>
   
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
